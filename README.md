@@ -146,7 +146,7 @@ Run start.bat to launch the server. The batch file will execute the FiveM server
 
 ### Developer Benefits
 - Easier maintenance (no custom NUI code to maintain)
-- Actively maintained by overextended
+- Actively maintained by communityox
 - Better documentation and community support
 - More features available out of the box
 - Simpler debugging
@@ -353,8 +353,8 @@ exports['esx_progressbar']:Progressbar('Label', 5000, {})
 
 ### Frameworks
 - ESX Framework - https://github.com/esx-framework
-- ox_lib - https://github.com/overextended/ox_lib
-- Overextended Resources - https://github.com/overextended
+- ox_lib - https://github.com/communityox/ox_lib
+- Communityox Resources - https://github.com/communityox
 
 ### Migration
 This server has been enhanced with ox_lib integration for improved performance and user experience while maintaining full ESX compatibility.
@@ -363,7 +363,7 @@ This server has been enhanced with ox_lib integration for improved performance a
 
 For issues related to:
 - ESX Core Framework - https://github.com/esx-framework/esx-legacy
-- ox_lib - https://github.com/overextended/ox_lib
+- ox_lib - https://github.com/communityox/ox_lib
 - FiveM - https://forum.cfx.re
 
 ## License

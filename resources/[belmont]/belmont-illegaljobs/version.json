@@ -1,0 +1,43 @@
+{
+    "name": "belmont-illegaljobs",
+    "version": "1.0.0",
+    "author": "Belmont Development",
+    "description": "Advanced illegal jobs system for ESX featuring drug processing, selling, and missions",
+    "framework": "ESX 1.10.10+",
+    "dependencies": {
+        "required": [
+            "es_extended",
+            "ox_inventory",
+            "ox_lib",
+            "ox_target"
+        ],
+        "optional": []
+    },
+    "features": [
+        "Drug processing system (Coke, Heroin, Meth, Joints)",
+        "Drug selling with dealer NPCs",
+        "Random drug missions",
+        "Police alert system",
+        "Full ox_inventory integration",
+        "ox_lib UI components",
+        "ox_target interactions",
+        "Anti-cheat protection",
+        "Configurable locations and prices",
+        "Danish localization (expandable)"
+    ],
+    "changelog": {
+        "1.0.0": {
+            "date": "2025-10-18",
+            "changes": [
+                "Initial release",
+                "Drug processing system implemented",
+                "Dealer selling system implemented",
+                "Mission system implemented",
+                "Police alert system implemented",
+                "Full configuration system",
+                "Danish localization",
+                "Complete documentation"
+            ]
+        }
+    }
+}

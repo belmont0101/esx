@@ -59,6 +59,8 @@ esx/
 │   │   ├── esx_ambulancejob/   # EMS job
 │   │   ├── esx_policejob/      # Police job
 │   │   └── ...                 # Other addons
+│   ├── [belmont]/              # Custom Belmont scripts
+│   │   └── belmont-illegaljobs/ # Advanced drug system
 │   └── [standalone]/           # Standalone resources
 │       ├── ox_lib/             # ox_lib framework (required)
 │       ├── ox_inventory/       # Inventory system
@@ -165,11 +167,20 @@ Run start.bat to launch the server. The batch file will execute the FiveM server
 - Multiple character slots available
 - Identity system for character information
 
-### Drug System (esx_drugs)
-- Harvest cannabis plants at the weed field
-- Process cannabis at the processing location
-- Sell drugs at the drug dealer location
-- Purchase processing licenses if required (configurable)
+### Drug System (esx_drugs + belmont-illegaljobs)
+- **Legacy System (esx_drugs):**
+  - Harvest cannabis plants at the weed field
+  - Process cannabis at the processing location
+  - Sell drugs at the drug dealer location
+  - Purchase processing licenses if required (configurable)
+  
+- **Advanced System (belmont-illegaljobs):**
+  - Process 4 drug types: Cocaine, Heroin, Meth, and Joints
+  - Rural operations in Sandy Shores and Paleto Bay
+  - ox_target interactions with progress bars
+  - Random drug missions with rewards ($2,000-$5,000)
+  - Police alert system with configurable chances
+  - Full ox_inventory integration with 7 new items
 
 ### Jobs and Activities
 Multiple jobs available including:
@@ -326,10 +337,7 @@ exports['esx_progressbar']:Progressbar('Label', 5000, {})
 - esx_taxijob - Taxi service
 
 ### Gameplay Resources
-- esx_drugs - Drug farming and selling (ox_lib)
-- esx_shops - General stores
-- esx_clotheshop - Clothing stores
-- esx_barbershop - Hair salons
+- belmont-illegaljobs - Advanced drug processing and missions (ox_lib + ox_target)
 - esx_vehicleshop - Vehicle dealerships
 - esx_garage - Vehicle garages
 - esx_property - Property system
